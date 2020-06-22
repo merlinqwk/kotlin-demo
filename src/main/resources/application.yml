@@ -1,0 +1,11 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /kotlin-test
+mybatis:
+  mapper-locations: classpath：mapper/*Mapper.xml
+logging:
+  config: config/logback-spring.xml
+spring:
+  profiles:
+    active: ds
